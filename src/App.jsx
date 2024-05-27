@@ -5,6 +5,7 @@ import History from "./components/History";
 import Footer from "./components/Footer";
 import Prizes from "./components/Prizes";
 import About from "./components/About";
+import Form from "./components/Form";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Tracks />
         <History />
         <Prizes />
+        <Form />
         <Footer />
       </div>
     </>
