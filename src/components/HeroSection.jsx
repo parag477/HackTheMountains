@@ -5,7 +5,7 @@ const HeroSection = () => {
 
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         CREATE
-        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">
           {" "}
           COLLABORATE{"\n"}
         </span>
@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="flex justify-center my-10">
         <a
           href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          className="bg-gradient-to-r from-purple-500 to-purple-800 py-3 px-4 mx-3 rounded-md"
         >
           Register Now!
         </a>

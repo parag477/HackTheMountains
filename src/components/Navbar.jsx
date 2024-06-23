@@ -15,8 +15,7 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative lg:text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="h-10 w-10 mr-2" src={logo} alt="Logo" />
-            <span className="text-xl tracking-tight">VirtualR</span>
+            <img className="h-10 w-auto mr-2" src={logo} alt="Logo" />
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
@@ -28,7 +27,7 @@ const Navbar = () => {
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a
               href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-purple-500 to-purple-800 py-2 px-3 rounded-md"
             >
               Register
             </a>
